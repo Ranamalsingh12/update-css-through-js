@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #7986CB  ;
+    text-align: center;
+}
+:root{
+    --color: #ffc600;
+    --spacing:10px;
+    --blur:10px;
+}
+img{
+    width: 500px;
+    height: 400px;
+    border: 20px solid #FFCC80;
+    margin: 30px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--color);
+    filter: blur(var(--blur));
+}
+.main{
+    color: var(--color);
+}
